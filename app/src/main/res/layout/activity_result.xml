@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_title"
+        android:textSize="50sp"
+        android:fontFamily="@font/avatarock"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avatarock"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:text="@string/result_score"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_high_score"
+        android:textSize="35sp"
+        android:fontFamily="@font/avatarock"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again_text"
+        android:textAllCaps="false"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/avatarock"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="@string/score"
+        android:textSize="30sp" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tap_to_start_text"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/box"
+            android:contentDescription="@string/box_text" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/orange"
+            android:contentDescription="@string/orange_ball_text" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/black"
+            android:contentDescription="@string/black_ball_text"/>
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/pink"
+            android:contentDescription="@string/pink_ball_text"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Catch the Ball</string>
+    <string name="pink_ball_text">Pink Ball</string>
+    <string name="orange_ball_text">Orange Ball</string>
+    <string name="black_ball_text">Black ball</string>
+    <string name="pink_point">30 point</string>
+    <string name="orange_point">10 point</string>
+    <string name="start_text">START</string>
+    <string name="game_over_text">Game Over</string>
+    <string name="score">Score: %d</string>
+    <string name="tap_to_start_text">Tap to start</string>
+    <string name="box_text">Box</string>
+    <string name="result_title">GAME OVER</string>
+    <string name="result_score">%d</string>
+    <string name="result_high_score">High Score: %d</string>
+    <string name="try_again_text">Try Again</string>
+</resources>
