@@ -13,5 +13,6 @@
     <string name="result_title">GAME OVER</string>
     <string name="result_score">%d</string>
     <string name="result_high_score">High Score: %d</string>
+    <string name="new_result_high_score">New High Score: %d</string>
     <string name="try_again_text">Try Again</string>
 </resources>
